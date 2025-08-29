@@ -15,47 +15,25 @@ This project uses Machine Learning to automate loan approval prediction based on
 ## 3. Dataset
 
 <l1>Source: Encoded_Loan_Data.csv (preprocessed with encoded categorical features).</l1>
-<li>Features:</li>
 
-<h5>Feature &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Description</h5>
-<li>Gender_Encode	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male=1, Female=0</li>
-<li>Married_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes=1, No=0</li>
-<li>Dependents &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of dependents</li>
-<li>Education_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduate=1, Not Graduate=0</li>
-<li>Self_Employed_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes=1, No=0</li>
-<li>ApplicantIncome	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Applicant’s income</li>
-<li>CoapplicantIncome &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Co-applicant’s income</li>
-<li>LoanAmount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loan amount requested</li>
-<li>Loan_Amount_Term &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Term in months</li>
-<li>Credit_History &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1=Good, 0=Bad</li>
-<li>Property_Area_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rural=0, Semiurban=1, Urban=2</li>
-<li>Loan_Status_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Approved=1, Not Approved=0</li>
+## 4. Data Preprocessing
 
-Dataset contains encoded features for Machine Learning.
+<li>Missing values handled using appropriate imputation.</li>
+<li>Outliers identified using boxplots and handled if necessary.</li>
+<li>Categorical variables encoded (Label/Ordinal Encoding).</li>
+<li>Numeric variables scaled using MinMaxScaler for better model performance.</li>
 
-4. Data Preprocessing
+## 5. Exploratory Data Analysis (EDA)
 
-Missing values handled using appropriate imputation.
+<li>Univariate Analysis: Distribution of individual features using histograms and countplots.</li>
+<li>Bivariate Analysis: Scatterplots and correlation matrices to see relationships between features and target.</li>
 
-Outliers identified using boxplots and handled if necessary.
+<h5>Observations:</h5>
 
-Categorical variables encoded (Label/Ordinal Encoding).
+<li>Credit History and ApplicantIncome have strong impact on loan approval.</li>
+<li>Property Area shows some variation in approvals across regions.</li>
 
-Numeric variables scaled using MinMaxScaler for better model performance.
-
-5. Exploratory Data Analysis (EDA)
-
-Univariate Analysis: Distribution of individual features using histograms and countplots.
-
-Bivariate Analysis: Scatterplots and correlation matrices to see relationships between features and target.
-
-Observations:
-
-Credit History and ApplicantIncome have strong impact on loan approval.
-
-Property Area shows some variation in approvals across regions.
-
-6. Model Selection
+## 6. Model Selection
 
 Four models were trained and evaluated on the dataset:
 
