@@ -35,19 +35,12 @@ This project uses Machine Learning to automate loan approval prediction based on
 
 ## 6. Model Selection
 
-Four models were trained and evaluated on the dataset:
+<h5>Four models were trained and evaluated on the dataset:</h5>
 
-Model	Training Accuracy	Test Accuracy	F1-Score	Recall
-Logistic Regression	81.34%	79.44%	86.74%	97.58%
-KNN	79.43%	75.56%	84.29%	95.16%
-SVM	82.06%	80.00%	87.05%	97.58%
-Random Forest	81.35%	79.44%	86.74%	97.58%
+<p>Observations:</p>
 
-Observations:
-
-All models performed reasonably well.
-
-SVM had slightly higher test accuracy, but Logistic Regression was chosen for deployment due to interpretability, simplicity, and high recall, which is important for approving eligible applicants.
+<p>All models performed reasonably well.</p>
+<p>SVM had slightly higher test accuracy, but Logistic Regression was chosen for deployment due to interpretability, simplicity, and high recall, which is important for approving eligible applicants.</p>
 
 7. Model Training
 
