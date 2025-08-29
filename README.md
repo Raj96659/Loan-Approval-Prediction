@@ -18,7 +18,7 @@ This project uses Machine Learning to automate loan approval prediction based on
 <li>Features:</li>
 
 <h5>Feature &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Description</h5>
-<li>Gender_Encode	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         Male=1, Female=0</li>
+<li>Gender_Encode	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male=1, Female=0</li>
 <li>Married_Encode	       Yes=1, No=0</li>
 <li>Dependents	           Number of dependents</li>
 Education_Encode	    Graduate=1, Not Graduate=0
