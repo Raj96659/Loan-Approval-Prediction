@@ -17,10 +17,10 @@ This project uses Machine Learning to automate loan approval prediction based on
 <l1>Source: Encoded_Loan_Data.csv (preprocessed with encoded categorical features).</l1>
 <li>Features:</li>
 
-Feature	               Description
-Gender_Encode	        Male=1, Female=0
-Married_Encode	      Yes=1, No=0
-Dependents	          Number of dependents
+<h5>Feature	               Description</h5>
+<li>Gender_Encode	         Male=1, Female=0</li>
+<li>Married_Encode	       Yes=1, No=0</li>
+<li>Dependents	           Number of dependents</li>
 Education_Encode	    Graduate=1, Not Graduate=0
 Self_Employed_Encode	Yes=1, No=0
 ApplicantIncome	      Applicant’s income
