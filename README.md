@@ -19,17 +19,17 @@ This project uses Machine Learning to automate loan approval prediction based on
 
 <h5>Feature &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Description</h5>
 <li>Gender_Encode	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male=1, Female=0</li>
-<li>Married_Encode	       Yes=1, No=0</li>
-<li>Dependents	           Number of dependents</li>
-Education_Encode	    Graduate=1, Not Graduate=0
-Self_Employed_Encode	Yes=1, No=0
-ApplicantIncome	      Applicant’s income
-CoapplicantIncome	    Co-applicant’s income
-LoanAmount	          Loan amount requested
-Loan_Amount_Term	    Term in months
-Credit_History	      1=Good, 0=Bad
-Property_Area_Encode	Rural=0, Semiurban=1, Urban=2
-Loan_Status_Encode	  Approved=1, Not Approved=0
+<li>Married_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes=1, No=0</li>
+<li>Dependents &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of dependents</li>
+<li>Education_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduate=1, Not Graduate=0</li>
+<li>Self_Employed_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes=1, No=0</li>
+<li>ApplicantIncome	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Applicant’s income</li>
+<li>CoapplicantIncome &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Co-applicant’s income</li>
+<li>LoanAmount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loan amount requested</li>
+<li>Loan_Amount_Term &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Term in months</li>
+<li>Credit_History &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1=Good, 0=Bad</li>
+<li>Property_Area_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rural=0, Semiurban=1, Urban=2</li>
+<li>Loan_Status_Encode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Approved=1, Not Approved=0</li>
 
 Dataset contains encoded features for Machine Learning.
 
