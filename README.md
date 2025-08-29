@@ -39,55 +39,41 @@ This project uses Machine Learning to automate loan approval prediction based on
 
 <p>Observations:</p>
 
-<p>All models performed reasonably well.</p>
-<p>SVM had slightly higher test accuracy, but Logistic Regression was chosen for deployment due to interpretability, simplicity, and high recall, which is important for approving eligible applicants.</p>
+<p>All models performed reasonably well.
+SVM had slightly higher test accuracy, but Logistic Regression was chosen for deployment due to interpretability, simplicity, and high recall, which is important for approving eligible applicants.</p>
 
-7. Model Training
+## 7. Model Training
 
-Selected Model: Logistic Regression
+<li>Selected Model: Logistic Regression</li>
 
-Train-Test Split: 70%-30%
+<li>Train-Test Split: 70%-30%</li>
 
-Scaling: MinMaxScaler on numeric features.
+<li>Scaling: MinMaxScaler on numeric features.</li>
 
-Final Evaluation Metrics on Test Data:
+<li>Final Evaluation Metrics on Test Data:</li>
+<li>Accuracy: 79.44%</li>
+<li>Precision: 78.06%</li>
+<li>Recall: 97.58%</li>
+<li>F1-score: 86.74%</li>
+<li>Pickled Model: Saved as logistic.pkl for deployment.</li>
+<li>Pickled Scaler: Saved as log_scale.pkl.</li>
 
-Accuracy: 79.44%
+## 8. Deployment (Streamlit App)
 
-Precision: 78.06%
+<li>Interactive app allows user input for all features.</li>
+<li>Automatically encodes categorical features and scales numeric features.</li>
+<li>Predicts loan approval using the trained Logistic Regression model.</li>
+<li>Displays Loan Approved / Not Approved with a simple interface.</li>
 
-Recall: 97.58%
+## 9. Conclusion
 
-F1-score: 86.74%
+<li>Machine Learning can efficiently predict loan approvals using applicant data.</li>
+<li>Logistic Regression provides a balance between performance and interpretability.</li>
+<li>High Recall ensures most eligible applicants are correctly approved, reducing manual errors.</li>
+<li>The deployed Streamlit app allows banks or users to easily test loan eligibility.</li>
 
-Pickled Model: Saved as logistic.pkl for deployment.
+## 10. Future Work
 
-Pickled Scaler: Saved as log_scale.pkl.
-
-8. Deployment (Streamlit App)
-
-Interactive app allows user input for all features.
-
-Automatically encodes categorical features and scales numeric features.
-
-Predicts loan approval using the trained Logistic Regression model.
-
-Displays Loan Approved / Not Approved with a simple interface.
-
-9. Conclusion
-
-Machine Learning can efficiently predict loan approvals using applicant data.
-
-Logistic Regression provides a balance between performance and interpretability.
-
-High Recall ensures most eligible applicants are correctly approved, reducing manual errors.
-
-The deployed Streamlit app allows banks or users to easily test loan eligibility.
-
-10. Future Work
-
-Include more features like debt-to-income ratio, past defaults, or property value.
-
-Explore ensemble methods to further improve accuracy.
-
-Use real-time deployment with database integration.
+<li>Include more features like debt-to-income ratio, past defaults, or property value.</li>
+<li>Explore ensemble methods to further improve accuracy.</li>
+<li>Use real-time deployment with database integration.</li>
